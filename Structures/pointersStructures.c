@@ -26,7 +26,7 @@ int main()
     printf("%p\n", &pikachu.speed);
     printf("%p\n", &pikachu.attack);
 
-    printf("\nAddress of Pointe and Pokemon created is same:\n");
+    printf("\nAddress of Pointer and Pokemon created is same:\n");
     Pokemon* x = &pikachu;
 
     printf("%p", x);
