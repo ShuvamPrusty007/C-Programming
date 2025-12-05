@@ -22,7 +22,7 @@ int main()
     int mat1[r1][c1];
     int mat2[r2][c2];
 
-    if ( c1 != r2)//1st Matrix col == 2nd Marix row---- condition
+    if ( c1 != r2)//1st Matrix col = 2nd Marix row
     {
         printf("Matrix Multplication not possible");
         return 1;

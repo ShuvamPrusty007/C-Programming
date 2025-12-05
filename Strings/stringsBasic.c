@@ -26,7 +26,7 @@ int main()
     //  '\0' ---> null character ---> 0
 
     char c = '\0'; // null
-    printf("\nThe value of character 'c' is: '%c' ------> null\n", c);
+    printf("\nThe value of character 'c' is: %c ------> null\n", c);
     printf("\nThe value of interger 'c' is: %d\n", c);
 
     printf("\n");

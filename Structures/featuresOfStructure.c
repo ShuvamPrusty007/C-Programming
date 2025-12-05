@@ -12,7 +12,7 @@ int main()
         char tier;
     } Pokemon;
 
-    Pokemon a, b;
+    Pokemon a, b, c;
 
     a.hp = 90;
     a.speed = 180;

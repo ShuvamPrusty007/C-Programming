@@ -13,7 +13,7 @@ int main()
 
     for (int i = size - 1; i >= 2; i--)
     {
-        // moving the elements 1 place to right
+        // moving the delements 1 place to right
         s1[i + 1] = s1[i];
     }
     s1[2] = 'l';

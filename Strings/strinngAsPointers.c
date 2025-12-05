@@ -17,12 +17,12 @@ int main()
 
     // int i = 0;
     // while(str[i] != '\0'){
-    //     printf("%c", str[i]);//Shuvam keep going
+    //     printf("%c", str[i]);//Shuvam kep going
     //     i++;
     // }
 
     while(*ptr != '\0'){
-        printf("%c", *ptr);//Shuvam keep going
+        printf("%c", *ptr);//Shuvam kep going
         ptr++;
     }
     printf("\n");

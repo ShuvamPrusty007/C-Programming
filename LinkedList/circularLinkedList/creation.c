@@ -28,7 +28,7 @@ void linkedListTraversal(struct Node *head)
         ptr = ptr->next;
     }while (ptr != head);
 
-    printf("%d---------->(just for understanding showing that last node is pointing to first node again)\n",ptr->data);
+    printf("%d(just for understanding showing showing this last node)\n",ptr->data);
 }
 
 int main()

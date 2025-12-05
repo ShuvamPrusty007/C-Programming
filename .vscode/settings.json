@@ -2,7 +2,6 @@
     "workbench.settings.useSplitJSON": false,
     "files.associations": {
         "stdio.h": "c",
-        "stdlib.h": "c",
-        "time.h": "c"
+        "stdlib.h": "c"
     }
 }

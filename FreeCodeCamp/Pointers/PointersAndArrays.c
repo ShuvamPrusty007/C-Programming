@@ -13,16 +13,16 @@ int main()
     printf("\n\n");
     for (int i = 0; i < 5; i++)
     {
-        printf("Address of %d = %d\n", A[i], &A[i]);
-        printf("Address of %d = %d\n", A[i], A + i);
-        printf("Value of A[%d] = %d\ns", i, A[i]);
-        printf("Value of A[%d] = %d\n", i, *(A + i));
+        printf("Address of = %d\n", &A[i]);
+        printf("Address of = %d\n", A + i);
+        printf("Value of = %d\n", A[i]);
+        printf("Value of = %d\n", *(A + i));
     }
 
     printf("\n\n");
     for (int i = 0; i < 5; i++)
     {
-        printf("Value of A[%d]= %d\n", i, *(p + i));
+        printf("Value of = %d\n", *(p + i));
     }
     printf("\n\n");
 

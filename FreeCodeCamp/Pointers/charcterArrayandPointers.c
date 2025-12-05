@@ -2,7 +2,7 @@
 #include <string.h>
 void print(char *C)
 {
-    // int i = 0;
+    int i = 0;
     // while(*(C+i) != '\0') OR while(C[i] != '\0')
     while (*C != '\0')
     {
